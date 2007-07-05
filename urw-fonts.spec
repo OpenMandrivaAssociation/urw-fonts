@@ -5,7 +5,7 @@
 Summary:	Free versions of the 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2.0
-Release:	%mkrel 16.1
+Release:	%mkrel 17
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
@@ -29,9 +29,7 @@ BuildArch:	noarch
 BuildRequires:	fontforge >= 1.0-0.20040703.2mdk
 %endif
 BuildRequires:	XFree86
-Requires(post):	chkfontpath
 Requires(post):	fontconfig
-Requires(postun):	chkfontpath
 Requires(postun):	fontconfig
 
 %description 
@@ -142,15 +140,17 @@ done
 #    mkfontdir .
 )
 
+mkdir -p %{buildroot}%_sysconfdir/X11/fontpath.d/
+ln -s ../../..%_datadir/fonts/default/Type1/ \
+    %{buildroot}%_sysconfdir/X11/fontpath.d/type1-urw-fonts:pri=50
+ln -s ../../..%_datadir/fonts/default/Type1/adobestd35 \
+    %{buildroot}%_sysconfdir/X11/fontpath.d/type1-urw-fonts-adobestd35:pri=50
+
 %post
-[ -x %{_sbindir}/chkfontpath ] && %{_sbindir}/chkfontpath -q -a %{_datadir}/fonts/default/Type1
-[ -x %{_sbindir}/chkfontpath ] && %{_sbindir}/chkfontpath -q -a %{_datadir}/fonts/default/Type1/adobestd35
 [ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
 
 %postun
 if [ "$1" = "0" ]; then
-	[ -x %{_sbindir}/chkfontpath ] && %{_sbindir}/chkfontpath -q -r %{_datadir}/fonts/default/Type1
-	[ -x %{_sbindir}/chkfontpath ] && %{_sbindir}/chkfontpath -q -r %{_datadir}/fonts/default/Type1/adobestd35
 	[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
 fi
 
@@ -163,7 +163,6 @@ rm -rf $RPM_BUILD_ROOT
 %if !%build_rebuild
 %doc urw-fonts-%{urwmdkver}/README.mdk
 %endif
-%dir %{_datadir}/fonts/
 %dir %{_datadir}/fonts/default/
 %dir %{_datadir}/fonts/default/Type1
 %dir %{_datadir}/fonts/default/Type1/adobestd35
@@ -177,4 +176,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/fonts/default/Type1/adobestd35/*.pfm
 %{_datadir}/fonts/default/Type1/adobestd35/fonts.dir
 %{_datadir}/fonts/default/Type1/adobestd35/fonts.scale
-
+%{_sysconfdir}/X11/fontpath.d/type1-urw-fonts:pri=50
+%{_sysconfdir}/X11/fontpath.d/type1-urw-fonts-adobestd35:pri=50
