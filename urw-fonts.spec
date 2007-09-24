@@ -5,7 +5,7 @@
 Summary:	Free versions of the 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2.0
-Release:	%mkrel 18
+Release:	%mkrel 19
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
@@ -86,64 +86,64 @@ done
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{_datadir}/fonts/default/type1 \
-	$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/adobestd35
+mkdir -p $RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1 \
+	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35
 
 %if %build_rebuild
 # install original URW fonts (from ghostscript set)
 install -m 644	fonts_fixed/*.afm \
 		fonts_fixed/*.pfm \
 		fonts_fixed/*.pfb \
-			$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/
+			$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
 # install new versions with cyrillic glyphs (and overwrite original
 # ones if needed)
 install -m 644	fixed/*.afm \
 		fixed/*.pfm \
 		fixed/*.pfb \
-			$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/
+			$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
 # install fonts.scale/fonts.dir
 install -m 644 fonts/fonts.scale \
-			$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/
+			$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
 install -m 644 fonts/fonts.scale \
-			$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/fonts.dir
+			$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/fonts.dir
 install -m 644 fonts/fonts.scale.adobe \
-	$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/adobestd35/fonts.scale
+	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35/fonts.scale
 install -m 644 fonts/fonts.scale.adobe \
-        $RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/adobestd35/fonts.dir
+        $RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35/fonts.dir
 %else
 install -m 644	urw-fonts-%{urwmdkver}/*.afm \
 	urw-fonts-%{urwmdkver}/*.pfm \
 	urw-fonts-%{urwmdkver}/*.pfb \
 	urw-fonts-%{urwmdkver}/fonts.dir \
 	urw-fonts-%{urwmdkver}/fonts.scale \
-		$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/
+		$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
 install -m 644 urw-fonts-%{urwmdkver}/fonts.scale.adobe \
-	$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/adobestd35/fonts.scale
+	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35/fonts.scale
 install -m 644 urw-fonts-%{urwmdkver}/fonts.dir.adobe \
-	$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/adobestd35/fonts.dir
+	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35/fonts.dir
 ## copy fixed fonts
 #cp -fp	n022003l.{afm,pfm,pfb} \
 #	n022004l.{afm,pfm,pfb} \
 #	n022023l.{afm,pfm,pfb} \
 #	n022024l.{afm,pfm,pfb} \
-#	$RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/
+#	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
 %endif
 
-cd $RPM_BUILD_ROOT%{_datadir}/fonts/default/type1/adobestd35
+cd $RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35
 for i in ../*.pfb ../*.afm ../*.pfm; do \
 	ln -s $i
 done
 
-(cd $RPM_BUILD_ROOT/usr/share/fonts/default/type1
+(cd $RPM_BUILD_ROOT/usr/share/fonts/default/Type1
 # X.org's mkfontdir messes up encoding order, using alphabetical one,
 # so for now comment the next line.
 #    mkfontdir .
 )
 
 mkdir -p %{buildroot}%_sysconfdir/X11/fontpath.d/
-ln -s ../../..%_datadir/fonts/default/type1 \
+ln -s ../../..%_datadir/fonts/default/Type1 \
     %{buildroot}%_sysconfdir/X11/fontpath.d/type1-urw-fonts:pri=50
-ln -s ../../..%_datadir/fonts/default/type1/adobestd35 \
+ln -s ../../..%_datadir/fonts/default/Type1/adobestd35 \
     %{buildroot}%_sysconfdir/X11/fontpath.d/type1-urw-fonts-adobestd35:pri=50
 
 %post
@@ -164,17 +164,17 @@ rm -rf $RPM_BUILD_ROOT
 %doc urw-fonts-%{urwmdkver}/README.mdk
 %endif
 %dir %{_datadir}/fonts/default/
-%dir %{_datadir}/fonts/default/type1
-%dir %{_datadir}/fonts/default/type1/adobestd35
-%{_datadir}/fonts/default/type1/fonts.dir
-%{_datadir}/fonts/default/type1/fonts.scale
-%{_datadir}/fonts/default/type1/*.afm
-%{_datadir}/fonts/default/type1/*.pfb
-%{_datadir}/fonts/default/type1/*.pfm
-%{_datadir}/fonts/default/type1/adobestd35/*.afm
-%{_datadir}/fonts/default/type1/adobestd35/*.pfb
-%{_datadir}/fonts/default/type1/adobestd35/*.pfm
-%{_datadir}/fonts/default/type1/adobestd35/fonts.dir
-%{_datadir}/fonts/default/type1/adobestd35/fonts.scale
+%dir %{_datadir}/fonts/default/Type1
+%dir %{_datadir}/fonts/default/Type1/adobestd35
+%{_datadir}/fonts/default/Type1/fonts.dir
+%{_datadir}/fonts/default/Type1/fonts.scale
+%{_datadir}/fonts/default/Type1/*.afm
+%{_datadir}/fonts/default/Type1/*.pfb
+%{_datadir}/fonts/default/Type1/*.pfm
+%{_datadir}/fonts/default/Type1/adobestd35/*.afm
+%{_datadir}/fonts/default/Type1/adobestd35/*.pfb
+%{_datadir}/fonts/default/Type1/adobestd35/*.pfm
+%{_datadir}/fonts/default/Type1/adobestd35/fonts.dir
+%{_datadir}/fonts/default/Type1/adobestd35/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/type1-urw-fonts:pri=50
 %{_sysconfdir}/X11/fontpath.d/type1-urw-fonts-adobestd35:pri=50
