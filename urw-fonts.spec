@@ -5,7 +5,7 @@
 Summary:	Free versions of the 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2.0
-Release:	%mkrel 19
+Release:	%mkrel 20
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
