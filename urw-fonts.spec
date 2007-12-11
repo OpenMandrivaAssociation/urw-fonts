@@ -11,7 +11,7 @@ Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts
 # this overwrites several of the fonts and fonts.dir with new versions
 Source1:	ftp://ftp.gnome.ru/fonts/urw/release/urw-fonts-1.0.7pre40.tar.bz2
 Source4:	urw-fonts-%{urwmdkver}.tar.bz2
-Source5:	http://peoples.mandrakesoft.com/~ghibo/urw-fonts-1.0.7pre40-nimbusmonl-fixed.tar.bz2
+Source5:	http://peoples.mandriva.com/~ghibo/urw-fonts-1.0.7pre40-nimbusmonl-fixed.tar.bz2
 
 # addition of *-iso10646-1 lines
 Patch0:		urw-fonts-2.0-fontscale.patch
