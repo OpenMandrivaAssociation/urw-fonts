@@ -23,6 +23,7 @@ Patch4:		urw-fonts-monospaced2.patch
 License:	GPL, URW holds copyright
 Group:		System/Fonts/Type1
 URL:		ftp://ftp.cs.wisc.edu/ghost/gnu/fonts/
+BuildRoot:	%_tmppath/%name-%version-%release-root
 BuildArch:	noarch
 %if %build_rebuild
 BuildRequires:	fontforge >= 1.0-0.20040703.2mdk
