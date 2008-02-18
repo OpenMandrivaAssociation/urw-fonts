@@ -2,10 +2,10 @@
 %{?_with_rebuild: %global build_rebuild 1}
 %define		urwmdkver 2.0-16.1mdk
 
-Summary:	Free versions of the 35 standard PostScript fonts
+Summary:	The 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2.0
-Release:	%mkrel 20
+Release:	%mkrel 21
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
