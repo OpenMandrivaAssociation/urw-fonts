@@ -28,7 +28,6 @@ BuildArch:	noarch
 %if %build_rebuild
 BuildRequires:	fontforge >= 1.0-0.20040703.2mdk
 %endif
-BuildRequires:	XFree86
 Requires(post):	fontconfig
 Requires(postun):	fontconfig
 
