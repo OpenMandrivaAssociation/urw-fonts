@@ -46,6 +46,27 @@ fonts.dir file font names match the original Adobe names of the fonts
 Install the urw-fonts package if you need free versions of standard
 PostScript fonts.
 
+The fonts provided are:
+URW-Avantgarde
+URW-Bookman
+URW Chancery
+URW-Century Schoolbook
+URW-Courier
+URW-Dingbats
+URW-Gothic
+URW-Helvetica
+URW-New Century Schoolbook
+URW-Nimbus Sans
+URW-Nimbus Roman No9
+URW-Nimbus Mono
+URW-Palatino
+URW Palladio
+URW-Standard Symbols
+URW-Symbol
+URW-Times
+URW-Zapf Chancery
+URW-Zapf Dingbats
+
 %prep
 %setup -q -c -a1 -a4 -a5
 %patch0 -p1 -b .fontscale
