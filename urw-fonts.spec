@@ -2,14 +2,10 @@
 %{?_with_rebuild: %global build_rebuild 1}
 %define		urwmdkver 2.0-16.1mdk
 
-%define bootstrap 0
-%{?_without_bootstrap: %global bootstrap 0}
-%{?_with_bootstrap: %global bootstrap 1}
-
 Summary:	The 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2.0
-Release:	%mkrel 25
+Release:	%mkrel 26
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
@@ -31,10 +27,6 @@ BuildRoot:	%_tmppath/%name-%version-%release-root
 BuildArch:	noarch
 %if %build_rebuild
 BuildRequires:	fontforge >= 1.0-0.20040703.2mdk
-%endif
-%if !%bootstrap
-Requires(post):	fontconfig
-Requires(postun):	fontconfig
 %endif
 
 %description 
@@ -171,18 +163,6 @@ ln -s ../../..%_datadir/fonts/default/Type1 \
     %{buildroot}%_sysconfdir/X11/fontpath.d/type1-urw-fonts:pri=50
 ln -s ../../..%_datadir/fonts/default/Type1/adobestd35 \
     %{buildroot}%_sysconfdir/X11/fontpath.d/type1-urw-fonts-adobestd35:pri=50
-
-%post
-%if !%bootstrap
-[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-%endif
-
-%postun
-%if !%bootstrap
-if [ "$1" = "0" ]; then
-	[ -x %{_bindir}/fc-cache ] && %{_bindir}/fc-cache 
-fi
-%endif
 
 %clean
 rm -rf $RPM_BUILD_ROOT
