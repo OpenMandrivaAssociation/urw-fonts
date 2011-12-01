@@ -103,56 +103,56 @@ done
 %endif
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1 \
-	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35
+rm -rf %{buildroot}
+mkdir -p %{buildroot}%{_datadir}/fonts/default/Type1 \
+	%{buildroot}%{_datadir}/fonts/default/Type1/adobestd35
 
 %if %build_rebuild
 # install original URW fonts (from ghostscript set)
 install -m 644	fonts_fixed/*.afm \
 		fonts_fixed/*.pfm \
 		fonts_fixed/*.pfb \
-			$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
+			%{buildroot}%{_datadir}/fonts/default/Type1/
 # install new versions with cyrillic glyphs (and overwrite original
 # ones if needed)
 install -m 644	fixed/*.afm \
 		fixed/*.pfm \
 		fixed/*.pfb \
-			$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
+			%{buildroot}%{_datadir}/fonts/default/Type1/
 # install fonts.scale/fonts.dir
 install -m 644 fonts/fonts.scale \
-			$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
+			%{buildroot}%{_datadir}/fonts/default/Type1/
 install -m 644 fonts/fonts.scale \
-			$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/fonts.dir
+			%{buildroot}%{_datadir}/fonts/default/Type1/fonts.dir
 install -m 644 fonts/fonts.scale.adobe \
-	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35/fonts.scale
+	%{buildroot}%{_datadir}/fonts/default/Type1/adobestd35/fonts.scale
 install -m 644 fonts/fonts.scale.adobe \
-        $RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35/fonts.dir
+        %{buildroot}%{_datadir}/fonts/default/Type1/adobestd35/fonts.dir
 %else
 install -m 644	urw-fonts-%{urwmdkver}/*.afm \
 	urw-fonts-%{urwmdkver}/*.pfm \
 	urw-fonts-%{urwmdkver}/*.pfb \
 	urw-fonts-%{urwmdkver}/fonts.dir \
 	urw-fonts-%{urwmdkver}/fonts.scale \
-		$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
+		%{buildroot}%{_datadir}/fonts/default/Type1/
 install -m 644 urw-fonts-%{urwmdkver}/fonts.scale.adobe \
-	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35/fonts.scale
+	%{buildroot}%{_datadir}/fonts/default/Type1/adobestd35/fonts.scale
 install -m 644 urw-fonts-%{urwmdkver}/fonts.dir.adobe \
-	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35/fonts.dir
+	%{buildroot}%{_datadir}/fonts/default/Type1/adobestd35/fonts.dir
 ## copy fixed fonts
 #cp -fp	n022003l.{afm,pfm,pfb} \
 #	n022004l.{afm,pfm,pfb} \
 #	n022023l.{afm,pfm,pfb} \
 #	n022024l.{afm,pfm,pfb} \
-#	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/
+#	%{buildroot}%{_datadir}/fonts/default/Type1/
 %endif
 
-cd $RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35
+cd %{buildroot}%{_datadir}/fonts/default/Type1/adobestd35
 for i in ../*.pfb ../*.afm ../*.pfm; do \
 	ln -s $i
 done
 
-(cd $RPM_BUILD_ROOT/usr/share/fonts/default/Type1
+(cd %{buildroot}/usr/share/fonts/default/Type1
 # X.org's mkfontdir messes up encoding order, using alphabetical one,
 # so for now comment the next line.
 #    mkfontdir .
@@ -165,7 +165,7 @@ ln -s ../../..%_datadir/fonts/default/Type1/adobestd35 \
     %{buildroot}%_sysconfdir/X11/fontpath.d/type1-urw-fonts-adobestd35:pri=50
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(0644,root,root,0755)
