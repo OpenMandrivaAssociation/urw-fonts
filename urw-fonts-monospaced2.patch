@@ -1,0 +1,69 @@
+--- urw-fonts-2.0/fonts/fonts.scale.mono	2005-02-12 21:57:20.000000000 +0100
++++ urw-fonts-2.0/fonts/fonts.scale	2005-02-13 14:49:51.471133732 +0100
+@@ -250,36 +250,36 @@
+ n022003l.pfb -URW-Nimbus Mono L-medium-r-normal--0-0-0-0-m-0-adobe-standard
+ n022003l.pfb -URW-Nimbus Mono L-medium-r-normal--0-0-0-0-m-0-iso10646-1
+ n022003l.pfb -URW-Nimbus Mono L-medium-r-normal--0-0-0-0-m-0-microsoft-cp1251
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-iso8859-1
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-iso8859-2
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-iso8859-9
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-iso8859-13
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-iso8859-15
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-koi8-r
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-koi8-u
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-adobe-standard
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-iso10646-1
+-n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-iso8859-1
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-iso8859-2
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-iso8859-9
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-iso8859-13
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-iso8859-15
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-koi8-r
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-koi8-u
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-adobe-standard
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-iso10646-1
+-n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-p-0-microsoft-cp1251
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-iso8859-1
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-iso8859-2
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-iso8859-9
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-iso8859-13
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-iso8859-15
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-koi8-r
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-koi8-u
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-adobe-standard
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-iso10646-1
+-n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-p-0-microsoft-cp1251
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-iso8859-1
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-iso8859-2
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-iso8859-9
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-iso8859-13
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-iso8859-15
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-koi8-r
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-koi8-u
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-adobe-standard
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-iso10646-1
++n022004l.pfb -URW-Nimbus Mono L-bold-r-normal--0-0-0-0-m-0-microsoft-cp1251
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-iso8859-1
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-iso8859-2
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-iso8859-9
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-iso8859-13
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-iso8859-15
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-koi8-r
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-koi8-u
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-adobe-standard
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-iso10646-1
++n022023l.pfb -URW-Nimbus Mono L-medium-o-normal--0-0-0-0-m-0-microsoft-cp1251
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-iso8859-1
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-iso8859-2
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-iso8859-9
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-iso8859-13
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-iso8859-15
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-koi8-r
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-koi8-u
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-adobe-standard
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-iso10646-1
++n022024l.pfb -URW-Nimbus Mono L-bold-o-normal--0-0-0-0-m-0-microsoft-cp1251
+ p052003l.pfb -URW-URW Palladio L-medium-r-normal--0-0-0-0-p-0-iso8859-1
+ p052003l.pfb -URW-URW Palladio L-medium-r-normal--0-0-0-0-p-0-iso8859-2
+ p052003l.pfb -URW-URW Palladio L-medium-r-normal--0-0-0-0-p-0-iso8859-9

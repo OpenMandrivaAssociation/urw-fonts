@@ -1,0 +1,23 @@
+--- urw-fonts-2.0.orig/fonts/fonts.alias	Thu Jan  1 01:00:00 1970
++++ urw-fonts-2.0/fonts/fonts.alias	Fri Aug 25 12:33:40 2000
+@@ -0,0 +1,20 @@
++-URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-1	-URW-Courier-medium-r-normal--0-0-0-0-p-0-iso8859-1
++-URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-2	-URW-Courier-medium-r-normal--0-0-0-0-p-0-iso8859-2
++-URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-9	-URW-Courier-medium-r-normal--0-0-0-0-p-0-iso8859-9
++-URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-13	-URW-Courier-medium-r-normal--0-0-0-0-p-0-iso8859-13
++-URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-15	-URW-Courier-medium-r-normal--0-0-0-0-p-0-iso8859-15
++-URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-1	-URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-1
++-URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-2	-URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-2
++-URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-9	-URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-9
++-URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-13	-URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-13
++-URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-15	-URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-15
++-URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-1	-URW-Courier-medium-o-normal--0-0-0-0-p-0-iso8859-1
++-URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-2	-URW-Courier-medium-o-normal--0-0-0-0-p-0-iso8859-2
++-URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-9	-URW-Courier-medium-o-normal--0-0-0-0-p-0-iso8859-9
++-URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-13	-URW-Courier-medium-o-normal--0-0-0-0-p-0-iso8859-13
++-URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-15	-URW-Courier-medium-o-normal--0-0-0-0-p-0-iso8859-15
++-URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-1	-URW-Courier-bold-o-normal--0-0-0-0-p-0-iso8859-1
++-URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-2	-URW-Courier-bold-o-normal--0-0-0-0-p-0-iso8859-2
++-URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-9	-URW-Courier-bold-o-normal--0-0-0-0-p-0-iso8859-9
++-URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-13	-URW-Courier-bold-o-normal--0-0-0-0-p-0-iso8859-13
++-URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-15	-URW-Courier-bold-o-normal--0-0-0-0-p-0-iso8859-15

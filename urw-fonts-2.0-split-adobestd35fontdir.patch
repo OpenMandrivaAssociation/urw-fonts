@@ -1,0 +1,677 @@
+--- urw-fonts-2.0/fonts/fonts.scale~	2004-08-05 16:55:20.000000000 +0200
++++ urw-fonts-2.0/fonts/fonts.scale	2004-08-05 16:55:20.000000000 +0200
+@@ -1,336 +1,4 @@
+-665
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-1
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-2
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-9
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-13
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-15
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-koi8-r
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-koi8-u
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-adobe-standard
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso10646-1
+-a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-1
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-2
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-9
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-13
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-15
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-koi8-r
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-koi8-u
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-adobe-standard
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso10646-1
+-a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-1
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-2
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-9
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-13
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-15
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-koi8-r
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-koi8-u
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-adobe-standard
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso10646-1
+-a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-microsoft-cp1251
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-1
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-2
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-9
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-13
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-15
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-koi8-r
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-koi8-u
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-adobe-standard
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso10646-1
+-a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-microsoft-cp1251
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-1
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-2
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-9
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-13
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-15
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-koi8-r
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-koi8-u
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-adobe-standard
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso10646-1
+-b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-1
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-2
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-9
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-13
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-15
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-koi8-r
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-koi8-u
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-adobe-standard
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso10646-1
+-b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-1
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-2
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-9
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-13
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-15
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-koi8-r
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-koi8-u
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-adobe-standard
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso10646-1
+-b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-1
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-2
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-9
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-13
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-15
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-koi8-r
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-koi8-u
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-adobe-standard
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso10646-1
+-b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-1
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-2
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-9
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-13
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-15
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-koi8-r
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-koi8-u
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-adobe-standard
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso10646-1
+-c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-1
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-2
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-9
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-13
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-15
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-koi8-r
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-koi8-u
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-adobe-standard
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso10646-1
+-c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-1
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-2
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-9
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-13
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-15
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-koi8-r
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-koi8-u
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-adobe-standard
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso10646-1
+-c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-1
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-2
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-9
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-13
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-15
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-koi8-r
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-koi8-u
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-adobe-standard
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso10646-1
+-c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-d050000l.pfb -URW-Zapf Dingbats-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-1
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-2
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-9
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-13
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-15
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-koi8-r
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-koi8-u
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-adobe-standard
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso10646-1
+-n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-1
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-2
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-9
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-13
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-15
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-koi8-r
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-koi8-u
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-adobe-standard
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso10646-1
+-n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-1
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-2
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-9
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-13
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-15
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-koi8-r
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-koi8-u
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-adobe-standard
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso10646-1
+-n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-1
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-2
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-9
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-13
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-15
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-koi8-r
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-koi8-u
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-adobe-standard
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso10646-1
+-n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-1
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-2
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-9
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-13
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-15
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-koi8-r
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-koi8-u
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso10646-1
+-n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-microsoft-cp1251
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-1
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-2
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-9
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-13
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-15
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-koi8-r
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-koi8-u
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-adobe-standard
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso10646-1
+-n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-microsoft-cp1251
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-1
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-2
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-9
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-13
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-15
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-koi8-r
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-koi8-u
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-adobe-standard
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso10646-1
+-n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-microsoft-cp1251
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-1
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-2
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-9
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-13
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-15
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-koi8-r
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-koi8-u
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-adobe-standard
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso10646-1
+-n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-microsoft-cp1251
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-1
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-2
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-9
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-13
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-15
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-koi8-r
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-koi8-u
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-adobe-standard
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso10646-1
+-n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-1
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-2
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-9
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-13
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-15
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-koi8-r
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-koi8-u
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-adobe-standard
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso10646-1
+-n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-1
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-2
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-9
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-13
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-15
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-koi8-r
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-koi8-u
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-adobe-standard
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso10646-1
+-n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-1
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-2
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-9
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-13
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-15
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-koi8-r
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-koi8-u
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-adobe-standard
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso10646-1
+-n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-1
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-2
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-9
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-13
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-15
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-koi8-r
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-koi8-u
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-adobe-standard
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso10646-1
+-n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-microsoft-cp1251
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-1
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-2
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-9
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-13
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-iso8859-15
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-koi8-r
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-koi8-u
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-adobe-standard
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-iso10646-1
+-n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-1
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-2
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-9
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-13
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-15
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-koi8-r
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-koi8-u
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-adobe-standard
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso10646-1
+-n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-microsoft-cp1251
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-1
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-2
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-9
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-13
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-15
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-koi8-r
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-koi8-u
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-adobe-standard
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso10646-1
+-n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-microsoft-cp1251
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-1
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-2
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-9
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-13
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-15
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-koi8-r
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-koi8-u
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-adobe-standard
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso10646-1
+-p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-1
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-2
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-9
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-13
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-15
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-koi8-r
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-koi8-u
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-adobe-standard
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso10646-1
+-p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-1
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-2
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-9
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-13
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-15
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-koi8-r
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-koi8-u
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-adobe-standard
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso10646-1
+-p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-1
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-2
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-9
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-13
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-15
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-koi8-r
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-koi8-u
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-adobe-standard
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso10646-1
+-p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
+-s050000l.pfb -URW-Symbol-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
+-s050000l.pfb -URW-Symbol-medium-r-normal--0-0-0-0-p-0-iso10646-1
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-1
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-2
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-9
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-13
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-15
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-koi8-r
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-koi8-u
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-adobe-standard
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso10646-1
+-z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
++333
+ a010013l.pfb -URW-URW Gothic L-medium-r-normal--0-0-0-0-p-0-iso8859-1
+ a010013l.pfb -URW-URW Gothic L-medium-r-normal--0-0-0-0-p-0-iso8859-2
+ a010013l.pfb -URW-URW Gothic L-medium-r-normal--0-0-0-0-p-0-iso8859-9
+--- urw-fonts-2.0/fonts/fonts.scale.adobe~	1970-01-01 01:00:00.000000000 +0100
++++ urw-fonts-2.0/fonts/fonts.scale.adobe	2004-08-05 15:50:08.000000000 +0200
+@@ -0,0 +1,334 @@
++333
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-1
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-2
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-9
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-13
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso8859-15
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-koi8-r
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-koi8-u
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-adobe-standard
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-iso10646-1
++a010013l.pfb -URW-Avantgarde-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-1
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-2
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-9
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-13
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso8859-15
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-koi8-r
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-koi8-u
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-adobe-standard
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-iso10646-1
++a010015l.pfb -URW-Avantgarde-semibold-r-normal--0-0-0-0-p-0-microsoft-cp1251
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-1
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-2
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-9
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-13
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso8859-15
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-koi8-r
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-koi8-u
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-adobe-standard
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-iso10646-1
++a010033l.pfb -URW-Avantgarde-medium-o-normal--0-0-0-0-p-0-microsoft-cp1251
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-1
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-2
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-9
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-13
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso8859-15
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-koi8-r
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-koi8-u
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-adobe-standard
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-iso10646-1
++a010035l.pfb -URW-Avantgarde-semibold-o-normal--0-0-0-0-p-0-microsoft-cp1251
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-1
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-2
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-9
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-13
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso8859-15
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-koi8-r
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-koi8-u
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-adobe-standard
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-iso10646-1
++b018012l.pfb -URW-Bookman-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-1
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-2
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-9
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-13
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso8859-15
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-koi8-r
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-koi8-u
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-adobe-standard
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-iso10646-1
++b018015l.pfb -URW-Bookman-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-1
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-2
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-9
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-13
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso8859-15
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-koi8-r
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-koi8-u
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-adobe-standard
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-iso10646-1
++b018032l.pfb -URW-Bookman-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-1
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-2
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-9
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-13
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso8859-15
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-koi8-r
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-koi8-u
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-adobe-standard
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-iso10646-1
++b018035l.pfb -URW-Bookman-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-1
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-2
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-9
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-13
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso8859-15
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-koi8-r
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-koi8-u
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-adobe-standard
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-iso10646-1
++c059013l.pfb -URW-New Century Schoolbook-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-1
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-2
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-9
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-13
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso8859-15
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-koi8-r
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-koi8-u
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-adobe-standard
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-iso10646-1
++c059016l.pfb -URW-New Century Schoolbook-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-1
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-2
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-9
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-13
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso8859-15
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-koi8-r
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-koi8-u
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-adobe-standard
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-iso10646-1
++c059033l.pfb -URW-New Century Schoolbook-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-1
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-2
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-9
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-13
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso8859-15
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-koi8-r
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-koi8-u
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-adobe-standard
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-iso10646-1
++c059036l.pfb -URW-New Century Schoolbook-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
++d050000l.pfb -URW-Zapf Dingbats-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-1
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-2
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-9
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-13
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso8859-15
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-koi8-r
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-koi8-u
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-adobe-standard
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-iso10646-1
++n019003l.pfb -URW-Helvetica-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-1
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-2
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-9
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-13
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso8859-15
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-koi8-r
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-koi8-u
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-adobe-standard
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-iso10646-1
++n019004l.pfb -URW-Helvetica-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-1
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-2
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-9
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-13
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso8859-15
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-koi8-r
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-koi8-u
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-adobe-standard
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-iso10646-1
++n019023l.pfb -URW-Helvetica-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-1
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-2
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-9
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-13
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso8859-15
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-koi8-r
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-koi8-u
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-adobe-standard
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-iso10646-1
++n019024l.pfb -URW-Helvetica-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-1
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-2
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-9
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-13
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso8859-15
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-koi8-r
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-koi8-u
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-adobe-standard
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-iso10646-1
++n019043l.pfb -URW-Helvetica-medium-r-condensed--0-0-0-0-p-0-microsoft-cp1251
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-1
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-2
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-9
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-13
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso8859-15
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-koi8-r
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-koi8-u
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-adobe-standard
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-iso10646-1
++n019044l.pfb -URW-Helvetica-bold-r-condensed--0-0-0-0-p-0-microsoft-cp1251
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-1
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-2
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-9
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-13
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso8859-15
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-koi8-r
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-koi8-u
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-adobe-standard
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-iso10646-1
++n019063l.pfb -URW-Helvetica-medium-o-condensed--0-0-0-0-p-0-microsoft-cp1251
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-1
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-2
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-9
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-13
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso8859-15
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-koi8-r
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-koi8-u
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-adobe-standard
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-iso10646-1
++n019064l.pfb -URW-Helvetica-bold-o-condensed--0-0-0-0-p-0-microsoft-cp1251
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-1
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-2
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-9
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-13
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso8859-15
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-koi8-r
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-koi8-u
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-adobe-standard
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-iso10646-1
++n021003l.pfb -URW-Times-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-1
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-2
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-9
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-13
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso8859-15
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-koi8-r
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-koi8-u
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-adobe-standard
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-iso10646-1
++n021004l.pfb -URW-Times-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-1
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-2
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-9
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-13
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso8859-15
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-koi8-r
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-koi8-u
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-adobe-standard
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-iso10646-1
++n021023l.pfb -URW-Times-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-1
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-2
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-9
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-13
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso8859-15
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-koi8-r
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-koi8-u
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-adobe-standard
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-iso10646-1
++n021024l.pfb -URW-Times-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-1
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-2
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-9
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-13
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso8859-15
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-koi8-r
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-koi8-u
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-adobe-standard
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-iso10646-1
++n022003l.pfb -URW-Courier-medium-r-normal--0-0-0-0-m-0-microsoft-cp1251
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-1
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-2
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-9
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-13
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-iso8859-15
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-koi8-r
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-koi8-u
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-adobe-standard
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-iso10646-1
++n022004l.pfb -URW-Courier-bold-r-normal--0-0-0-0-m-0-microsoft-cp1251
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-1
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-2
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-9
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-13
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso8859-15
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-koi8-r
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-koi8-u
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-adobe-standard
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-iso10646-1
++n022023l.pfb -URW-Courier-medium-o-normal--0-0-0-0-m-0-microsoft-cp1251
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-1
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-2
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-9
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-13
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso8859-15
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-koi8-r
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-koi8-u
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-adobe-standard
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-iso10646-1
++n022024l.pfb -URW-Courier-bold-o-normal--0-0-0-0-m-0-microsoft-cp1251
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-1
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-2
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-9
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-13
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso8859-15
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-koi8-r
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-koi8-u
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-adobe-standard
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-iso10646-1
++p052003l.pfb -URW-Palatino-medium-r-normal--0-0-0-0-p-0-microsoft-cp1251
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-1
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-2
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-9
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-13
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso8859-15
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-koi8-r
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-koi8-u
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-adobe-standard
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-iso10646-1
++p052004l.pfb -URW-Palatino-bold-r-normal--0-0-0-0-p-0-microsoft-cp1251
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-1
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-2
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-9
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-13
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso8859-15
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-koi8-r
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-koi8-u
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-adobe-standard
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-iso10646-1
++p052023l.pfb -URW-Palatino-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-1
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-2
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-9
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-13
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso8859-15
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-koi8-r
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-koi8-u
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-adobe-standard
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-iso10646-1
++p052024l.pfb -URW-Palatino-bold-i-normal--0-0-0-0-p-0-microsoft-cp1251
++s050000l.pfb -URW-Symbol-medium-r-normal--0-0-0-0-p-0-adobe-fontspecific
++s050000l.pfb -URW-Symbol-medium-r-normal--0-0-0-0-p-0-iso10646-1
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-1
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-2
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-9
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-13
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso8859-15
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-koi8-r
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-koi8-u
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-adobe-standard
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-iso10646-1
++z003034l.pfb -URW-Zapf Chancery-medium-i-normal--0-0-0-0-p-0-microsoft-cp1251
