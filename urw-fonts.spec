@@ -5,7 +5,7 @@
 Summary:	The 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2.0
-Release:	37
+Release:	38
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
@@ -203,7 +203,7 @@ rm -rf $RPM_BUILD_ROOT
 + Revision: 494169
 - fc-cache is now called by an rpm filetrigger
 
-* Fri Dec 18 2009 Stéphane Téletchéa <steletch@mandriva.org> 2.0-25mdv2010.1
+* Fri Dec 18 2009 StÃ©phane TÃ©letchÃ©a <steletch@mandriva.org> 2.0-25mdv2010.1
 + Revision: 479953
 - Update description, fixes bug 23857
 
@@ -255,10 +255,10 @@ rm -rf $RPM_BUILD_ROOT
 - minor cleanups
 
 
-* Thu Mar 16 2006 Giuseppe Ghib� <ghibo@mandriva.com> 2.0-16.1mdk
+* Thu Mar 16 2006 Giuseppe Ghibà <ghibo@mandriva.com> 2.0-16.1mdk
 - Fixed z003034l.pfb, due to broken //UniqueID line.
 
-* Sat Mar 11 2006 Giuseppe Ghib� <ghibo@mandriva.com> 2.0-16mdk
+* Sat Mar 11 2006 Giuseppe Ghibò <ghibo@mandriva.com> 2.0-16mdk
 - Fake FontBBox to match the one in original ghostscript-fonts-std-8.11
   (fix bug #21017, #13080).
 
@@ -271,10 +271,10 @@ rm -rf $RPM_BUILD_ROOT
 - %%mkrel
 - fix date in previous changelog
 
-* Mon Jun 27 2005 Giuseppe Ghib� <ghibo@mandriva.com> 2.0-15.1mdk
+* Mon Jun 27 2005 Giuseppe Ghibò <ghibo@mandriva.com> 2.0-15.1mdk
 - Copy forgotten Source5 archive (with fixed mono fonts) into install tree.
 
-* Sat Feb 12 2005 Giuseppe Ghib� <ghibo@mandrakesoft.com> 2.0-15mdk
+* Sat Feb 12 2005 Giuseppe Ghibò <ghibo@mandrakesoft.com> 2.0-15mdk
 - Use Filippov's version 1.0.7pre40.
 - Fix bug #12493 (added Source5 with fixed fonts).
 - Change '-URW-Courier' to spacing 'm' instead of 'p' in 
@@ -283,15 +283,15 @@ rm -rf $RPM_BUILD_ROOT
   adobestd35/fonts.dir|scale.
 - Removed fonts.alias for monospace.
 
-* Sat Aug 07 2004 Giuseppe Ghib� <ghibo@mandrakesoft.com> 2.0-14mdk
+* Sat Aug 07 2004 Giuseppe Ghibò <ghibo@mandrakesoft.com> 2.0-14mdk
 - Use Filippov's version 1.0.7pre35.
 
-* Thu Aug 05 2004 Giuseppe Ghib� <ghibo@mandrakesoft.com> 2.0-13mdk
+* Thu Aug 05 2004 Giuseppe Ghibò <ghibo@mandrakesoft.com> 2.0-13mdk
 - Added Patch4 to have Adobe names in a standalone fonts.dir
   to avoid confusion with OOo.
 - Added links into %%{_datadir}/default/fonts/Type1/adobestd35.
 
-* Sat Jul 31 2004 Giuseppe Ghib� <ghibo@mandrakesoft.com> 2.0-12mdk
+* Sat Jul 31 2004 Giuseppe Ghibò <ghibo@mandrakesoft.com> 2.0-12mdk
 - Added Source1 (Filippov's URW fonts version 1.0.7pre33).
 - Dropped Mashrab Kuratov Source3 (merged into Valek Filippov fonts).
 - Dropped Source2 (bold nimbus, merged into Filippov fonts).
@@ -300,7 +300,7 @@ rm -rf $RPM_BUILD_ROOT
 - Removing trailing space (Source4) from "URW Chancery L " FamilyName.
 - Added Patch2 so to list Adobe 35 std font names before URW.
 
-* Thu Jan 29 2004 Giuseppe Ghib� <ghibo@mandrakesoft.com> 2.0-11mdk
+* Thu Jan 29 2004 Giuseppe Ghibò <ghibo@mandrakesoft.com> 2.0-11mdk
 - Added %%build_rebuild conditional building flag.
 - Fixed fonts for bug http://bugs.mandrakelinux.com/query.php?bug=94.
 - Dropped Source1: fonts from 
