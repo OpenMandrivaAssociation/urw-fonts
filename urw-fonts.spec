@@ -5,7 +5,7 @@
 Summary:	The 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2.0
-Release:	40
+Release:	41
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
@@ -23,7 +23,6 @@ Patch4:		urw-fonts-monospaced2.patch
 License:	GPL, URW holds copyright
 Group:		System/Fonts/Type1
 URL:		ftp://ftp.cs.wisc.edu/ghost/gnu/fonts/
-BuildRoot:	%_tmppath/%name-%version-%release-root
 BuildArch:	noarch
 %if %build_rebuild
 BuildRequires:	fontforge >= 1.0-0.20040703.2mdk
