@@ -5,7 +5,7 @@
 Summary:	The 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2017.07.27
-Release:	1
+Release:	2
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
