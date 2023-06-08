@@ -4,16 +4,15 @@
 
 Summary:	The 35 standard PostScript fonts
 Name:		urw-fonts
-Version:	2017.07.27
-Release:	2
+Version:	2020.09.10
+Release:	1
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
-Source1:	ftp://ftp.gnome.ru/fonts/urw/release/urw-fonts-1.0.7pre40.tar.bz2
+Source1:	https://src.fedoraproject.org/repo/pkgs/urw-fonts/urw-fonts-1.0.7pre44.tar.bz2/51c6c2690593cd9bd92f197a6f2ff8bd/urw-fonts-1.0.7pre44.tar.bz2
 Source4:	urw-fonts-%{urwmdkver}.tar.bz2
 Source5:	http://peoples.mandriva.com/~ghibo/urw-fonts-1.0.7pre40-nimbusmonl-fixed.tar.bz2
-# git clone http://git.ghostscript.com/urw-core35-fonts.git
-Source6:	urw-core35-fonts-%{version}.tar.xz
+Source6:	https://github.com/ArtifexSoftware/urw-base35-fonts/archive/%(echo %{version} |sed -e 's,\.,,g').tar.gz#/%{name}-%{version}.tar.gz
 
 # addition of *-iso10646-1 lines
 Patch0:		urw-fonts-2.0-fontscale.patch
@@ -109,8 +108,13 @@ mkdir -p $RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1 \
 	$RPM_BUILD_ROOT%{_datadir}/fonts/default/Type1/adobestd35 \
 	%{buildroot}%{_datadir}/fonts/default/TTF
 
-cp urw-core35-fonts-%{version}/*.?tf \
+cp urw-base35-fonts-*/fonts/*.?tf \
 	%{buildroot}%{_datadir}/fonts/default/TTF
+
+mkdir -p %{buildroot}%{_sysconfdir}/fonts/conf.d
+for i in urw-base35-fonts-*/fontconfig/*.conf; do
+	cp $i %{buildroot}%{_sysconfdir}/fonts/conf.d/25-$(basename $i)
+done
 
 %if %build_rebuild
 # install original URW fonts (from ghostscript set)
@@ -178,6 +182,7 @@ ln -s ../../..%_datadir/fonts/default/Type1/adobestd35 \
 %dir %{_datadir}/fonts/default/
 %dir %{_datadir}/fonts/default/Type1
 %dir %{_datadir}/fonts/default/Type1/adobestd35
+%{_sysconfdir}/fonts/conf.d/25*
 %{_datadir}/fonts/default/Type1/fonts.dir
 %{_datadir}/fonts/default/Type1/fonts.scale
 %{_datadir}/fonts/default/Type1/*.afm
