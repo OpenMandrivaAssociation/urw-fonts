@@ -5,7 +5,7 @@
 Summary:	The 35 standard PostScript fonts
 Name:		urw-fonts
 Version:	2020.09.10
-Release:	1
+Release:	2
 
 Source0:	http://heanet.dl.sourceforge.net/sourceforge/gs-fonts/ghostscript-fonts-std-8.11.tar.bz2
 # this overwrites several of the fonts and fonts.dir with new versions
@@ -14,13 +14,6 @@ Source4:	urw-fonts-%{urwmdkver}.tar.bz2
 Source5:	http://peoples.mandriva.com/~ghibo/urw-fonts-1.0.7pre40-nimbusmonl-fixed.tar.bz2
 Source6:	https://github.com/ArtifexSoftware/urw-base35-fonts/archive/%(echo %{version} |sed -e 's,\.,,g').tar.gz#/%{name}-%{version}.tar.gz
 
-# addition of *-iso10646-1 lines
-Patch0:		urw-fonts-2.0-fontscale.patch
-Patch1:		urw-fonts-monospaced.patch
-Patch2:		urw-fonts-2.0-fontscale-adobe-before-urw.patch
-Patch3:		urw-fonts-2.0-split-adobestd35fontdir.patch
-Patch4:		urw-fonts-monospaced2.patch
-
 License:	GPL, URW holds copyright
 Group:		System/Fonts/Type1
 URL:		ftp://ftp.cs.wisc.edu/ghost/gnu/fonts/
@@ -28,6 +21,16 @@ BuildArch:	noarch
 %if %build_rebuild
 BuildRequires:	fontforge >= 1.0-0.20040703.2mdk
 %endif
+
+%patchlist
+# addition of *-iso10646-1 lines
+urw-fonts-2.0-fontscale.patch
+urw-fonts-monospaced.patch
+urw-fonts-2.0-fontscale-adobe-before-urw.patch
+urw-fonts-2.0-split-adobestd35fontdir.patch
+urw-fonts-monospaced2.patch
+https://github.com/ArtifexSoftware/urw-base35-fonts/commit/ae671b1b1f4219b090628f259b994eada336d965.patch
+https://github.com/ArtifexSoftware/urw-base35-fonts/commit/3c0ba3b5687632dfc66526544a4e811fe0ec0cd9.patch
 
 %description 
 Free, good quality versions of the 35 standard PostScript(TM) fonts,
@@ -61,11 +64,7 @@ URW-Zapf Dingbats
 
 %prep
 %setup -q -c -a1 -a4 -a5 -a6
-%patch0 -p1 -b .fontscale
-%patch1 -p1 -b .mono
-%patch2 -p1 -b .urw
-%patch3 -p1 -b .split
-%patch4 -p1 -b .mono2
+%autopatch -p1
 
 %build
 %if %build_rebuild
@@ -113,7 +112,7 @@ cp urw-base35-fonts-*/fonts/*.?tf \
 
 mkdir -p %{buildroot}%{_sysconfdir}/fonts/conf.d
 for i in urw-base35-fonts-*/fontconfig/*.conf; do
-	cp $i %{buildroot}%{_sysconfdir}/fonts/conf.d/25-$(basename $i)
+	cp $i %{buildroot}%{_sysconfdir}/fonts/conf.d/61-$(basename $i)
 done
 
 %if %build_rebuild
@@ -182,7 +181,7 @@ ln -s ../../..%_datadir/fonts/default/Type1/adobestd35 \
 %dir %{_datadir}/fonts/default/
 %dir %{_datadir}/fonts/default/Type1
 %dir %{_datadir}/fonts/default/Type1/adobestd35
-%{_sysconfdir}/fonts/conf.d/25*
+%{_sysconfdir}/fonts/conf.d/61*
 %{_datadir}/fonts/default/Type1/fonts.dir
 %{_datadir}/fonts/default/Type1/fonts.scale
 %{_datadir}/fonts/default/Type1/*.afm
